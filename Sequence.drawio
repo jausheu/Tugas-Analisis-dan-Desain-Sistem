@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="IdvsyXxS9mW74jT-kxPO">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qxUFwawVn_x7-DUaTeia-1" value="Anggota" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-2" value="Pustakawan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="288" y="20" width="150" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-3" value="SistemPerpustakaan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="488" y="20" width="161" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-4" value="SistemPembayaran" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="699" y="20" width="153" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-5" value="Meminta Buku" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qxUFwawVn_x7-DUaTeia-1" target="qxUFwawVn_x7-DUaTeia-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="238" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-6" value="Cari Buku" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qxUFwawVn_x7-DUaTeia-2" target="qxUFwawVn_x7-DUaTeia-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-7" value="Informasi Buku" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qxUFwawVn_x7-DUaTeia-3" target="qxUFwawVn_x7-DUaTeia-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="477" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-8" value="Mengonfirmasi Peminjaman" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qxUFwawVn_x7-DUaTeia-2" target="qxUFwawVn_x7-DUaTeia-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-9" value="Membayar Denda (Jika Ada)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="qxUFwawVn_x7-DUaTeia-1" target="qxUFwawVn_x7-DUaTeia-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="444" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qxUFwawVn_x7-DUaTeia-10" value="Buku Diterima" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="qxUFwawVn_x7-DUaTeia-1" target="qxUFwawVn_x7-DUaTeia-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="238" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
